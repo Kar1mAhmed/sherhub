@@ -61,6 +61,11 @@ const ClientsSection = () => {
       src: "/clients/SDC.png",
       alt: "SDC",
       title: "SDC"
+    },
+    {
+      src: "/clients/CHATHAM-HOUSE.png",
+      alt: "CHATHAM HOUSE",
+      title: "CHATHAM HOUSE"
     }
   ];
 
