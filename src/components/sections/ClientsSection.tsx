@@ -8,6 +8,11 @@ const ClientsSection = () => {
   // Client logos data with proper containment
   const clientLogos = [
     {
+      src: "/clients/EU-LOGO.webp",
+      alt: "EU Union",
+      title: "EU Union"
+    },
+    {
       src: "/clients/UNICEF_ForEveryChild_Cyan_Vertical_RGB__144ppiENG.png",
       alt: "UNICEF",
       title: "UNICEF"

@@ -19,7 +19,7 @@ const AboutPage = () => {
             className="text-left space-y-12"
           >
             {/* Big Orange Headline */}
-            <h1 
+            <h1
               className="text-6xl md:text-8xl lg:text-9xl xl:text-[10rem] font-medium"
               style={{ color: '#fe4306' }}
             >
@@ -122,7 +122,7 @@ const AboutPage = () => {
       <section className="py-4 md:py-4 lg:py-24 bg-white min-h-auto flex items-center">
         <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
           <div className="space-y-2 md:space-y-4 lg:space-y-4">
-            
+
             {/* Row 1: WE CREATE */}
             <motion.div
               initial={{ opacity: 0, y: 50 }}
@@ -134,7 +134,7 @@ const AboutPage = () => {
               <div className="text-6xl md:text-8xl lg:text-9xl xl:text-[12rem] font-medium text-black leading-none">
                 WE
               </div>
-              <div 
+              <div
                 className="text-6xl md:text-8xl lg:text-9xl xl:text-[12rem] font-medium leading-none text-black"
               >
                 CREATE
@@ -149,7 +149,7 @@ const AboutPage = () => {
               viewport={{ once: true }}
               className="flex items-center justify-end w-full overflow-hidden"
             >
-              <div 
+              <div
                 className="text-6xl md:text-8xl lg:text-9xl xl:text-[12rem] font-medium leading-none"
                 style={{ color: '#fe4306' }}
               >
@@ -181,7 +181,7 @@ const AboutPage = () => {
               <div className="text-6xl md:text-8xl lg:text-9xl xl:text-[12rem] font-medium text-black leading-none">
                 THAT
               </div>
-              <div 
+              <div
                 className="text-6xl md:text-8xl lg:text-9xl xl:text-[12rem] font-medium leading-none"
                 style={{ color: '#fe4306' }}
               >
@@ -193,17 +193,35 @@ const AboutPage = () => {
             <motion.div
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.5 }}
+              transition={{ duration: 0.8, delay: 0.1 }}
               viewport={{ once: true }}
-              className="flex items-center justify-start w-full overflow-hidden"
+              className="flex items-center justify-between w-full overflow-hidden"
             >
-              <div 
+              <div className="text-6xl md:text-8xl lg:text-9xl xl:text-[12rem] font-medium text-black leading-none">
+                CEASES
+              </div>
+              <div
+                className="text-6xl md:text-8xl lg:text-9xl xl:text-[12rem] font-medium leading-none text-black"
+              >
+                TO
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.2 }}
+              viewport={{ once: true }}
+              className="flex items-center justify-center w-full overflow-hidden"
+            >
+              <div
                 className="text-6xl md:text-8xl lg:text-9xl xl:text-[12rem] font-medium leading-none"
                 style={{ color: '#fe4306' }}
               >
-                CEASE
+                AMAZE
               </div>
             </motion.div>
+
 
           </div>
         </div>
@@ -213,7 +231,7 @@ const AboutPage = () => {
       <section className="relative py-16 md:py-24 bg-black overflow-hidden">
         <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-start">
-            
+
             {/* Left Column - Image with Animated Overlay */}
             <motion.div
               initial={{ opacity: 0, scale: 0.95 }}
@@ -248,11 +266,11 @@ const AboutPage = () => {
                   }}
                   className="whitespace-nowrap"
                 >
-                  <span 
+                  <span
                     className="text-4xl md:text-6xl lg:text-7xl font-bold text-white opacity-80"
                     style={{ fontFamily: 'TomatoGrotesk, sans-serif' }}
                   >
-                    MARKETING AGENCY • MARKETING AGENCY • MARKETING AGENCY • 
+                    MARKETING AGENCY • MARKETING AGENCY • MARKETING AGENCY •
                   </span>
                 </motion.div>
               </div>
@@ -260,7 +278,7 @@ const AboutPage = () => {
 
             {/* Right Column - Content */}
             <div className="space-y-8 lg:pl-8">
-              
+
               {/* Subtitle */}
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -268,7 +286,7 @@ const AboutPage = () => {
                 transition={{ duration: 0.6 }}
                 viewport={{ once: true }}
               >
-                <div 
+                <div
                   className="text-sm md:text-base font-medium tracking-wider uppercase mb-6"
                   style={{ color: '#999da6' }}
                 >
@@ -290,7 +308,7 @@ const AboutPage = () => {
 
               {/* Two Column Text */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                
+
                 {/* Left Text Column */}
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
