@@ -23,6 +23,12 @@ const ClientsSection = () => {
       title: "Ridha Alwan"
     },
     {
+       src: "/clients/ebrd-regular.svg",
+      alt: "EBRD",
+      title: "EBRD"
+    }
+    ,
+    {
       src: "/clients/2.-Logo-Orange-Corners-Orange-White---without-tagline.png",
       alt: "Orange Corners",
       title: "Orange Corners"
